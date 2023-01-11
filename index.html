@@ -217,7 +217,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Nothing Is Impossible"></span>
+            <span id="subtitle" data-typed-text="有人相爱，有人夜里开车看海，有人leetcode第一题都做不出来"></span>
           
         </div>
 
@@ -400,11 +400,11 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/Mysql/">#Mysql</a>
-            
               <a href="/tags/%E5%90%8E%E7%AB%AF/">#后端</a>
             
               <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">#数据库</a>
+            
+              <a href="/tags/Mysql/">#Mysql</a>
             
           </div>
         
@@ -465,15 +465,15 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/Mysql/">#Mysql</a>
+              <a href="/tags/Java/">#Java</a>
             
               <a href="/tags/%E5%90%8E%E7%AB%AF/">#后端</a>
             
               <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">#数据库</a>
             
-              <a href="/tags/Java/">#Java</a>
-            
               <a href="/tags/JDBC/">#JDBC</a>
+            
+              <a href="/tags/Mysql/">#Mysql</a>
             
           </div>
         
@@ -534,9 +534,9 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/%E5%90%8E%E7%AB%AF/">#后端</a>
-            
               <a href="/tags/Java/">#Java</a>
+            
+              <a href="/tags/%E5%90%8E%E7%AB%AF/">#后端</a>
             
           </div>
         
@@ -681,37 +681,7 @@
       }
       var text = subtitle.getAttribute('data-typed-text');
       
-        jQuery.ajax({
-          type: 'GET',
-          url: '',
-          headers: {},
-          dataType: 'json',
-          success: function(result) {
-            var apiText;
-            if (result) {
-              var keys = ''.split(',');
-              if (result instanceof Array) {
-                result = result[0];
-              }
-              for (const k of keys) {
-                var value = result[k];
-                if (typeof value === 'string') {
-                  apiText = value;
-                  break;
-                } else if (value instanceof Object) {
-                  result = value;
-                }
-              }
-            }
-            apiText ? typing(apiText) : typing(text);
-          },
-          error: function(xhr, status, error) {
-            if (error) {
-              console.error('Failed to request :', error);
-            }
-            typing(text);
-          }
-        })
+        typing(text);
       
     })(window, document);
   </script>
