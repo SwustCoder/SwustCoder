@@ -74,11 +74,11 @@
     
     <tags>
       
+      <tag>Mysql</tag>
+      
       <tag>后端</tag>
       
       <tag>数据库</tag>
-      
-      <tag>Mysql</tag>
       
     </tags>
     
@@ -103,15 +103,15 @@
     
     <tags>
       
-      <tag>Java</tag>
+      <tag>Mysql</tag>
       
       <tag>后端</tag>
       
       <tag>数据库</tag>
       
-      <tag>JDBC</tag>
+      <tag>Java</tag>
       
-      <tag>Mysql</tag>
+      <tag>JDBC</tag>
       
     </tags>
     
@@ -136,9 +136,9 @@
     
     <tags>
       
-      <tag>Java</tag>
-      
       <tag>后端</tag>
+      
+      <tag>Java</tag>
       
     </tags>
     
