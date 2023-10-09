@@ -18,22 +18,22 @@
   <meta name="author" content="Yang Qiu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="题目编写一个函数来查找字符串数组中的最长公共前缀。 如果不存在公共前缀，返回空字符串 &quot;&quot;。 示例示例 1： 12输入：strs &#x3D; [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]输出：&quot;fl&quot;  示例 2： 123输入：strs &#x3D; [&quot;dog&quot;,&quot;raceca">
+    <meta name="description" content="1、目录操作1.1 目录切换 cd命令：cd 目录 12345cd &#x2F;		# 切换到根目录cd &#x2F;usr		# 切换到根目录下的usr目录cd ..&#x2F;		# 切换到上一级目录，或者cd..cd ~		# 切换到home目录cd -		# 切换到上次访问的目录">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Leetcode题解14.最长公共前缀">
-<meta property="og:url" content="https://swustcoder.github.io/2023/02/14/Leetcode%E9%A2%98%E8%A7%A314.%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80/index.html">
+<meta property="og:title" content="Linux操作命令">
+<meta property="og:url" content="https://swustcoder.github.io/2023/10/07/Linux%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="木易禾火">
-<meta property="og:description" content="题目编写一个函数来查找字符串数组中的最长公共前缀。 如果不存在公共前缀，返回空字符串 &quot;&quot;。 示例示例 1： 12输入：strs &#x3D; [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]输出：&quot;fl&quot;  示例 2： 123输入：strs &#x3D; [&quot;dog&quot;,&quot;raceca">
+<meta property="og:description" content="1、目录操作1.1 目录切换 cd命令：cd 目录 12345cd &#x2F;		# 切换到根目录cd &#x2F;usr		# 切换到根目录下的usr目录cd ..&#x2F;		# 切换到上一级目录，或者cd..cd ~		# 切换到home目录cd -		# 切换到上次访问的目录">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-02-14T08:19:05.348Z">
-<meta property="article:modified_time" content="2023-02-14T08:18:49.549Z">
+<meta property="article:published_time" content="2023-10-07T15:23:35.545Z">
+<meta property="article:modified_time" content="2023-10-09T08:43:49.967Z">
 <meta property="article:author" content="Yang Qiu">
-<meta property="article:tag" content="题解">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Leetcode题解14.最长公共前缀 - 木易禾火</title>
+  <title>Linux操作命令 - 木易禾火</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -211,7 +211,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Leetcode题解14.最长公共前缀"></span>
+            <span id="subtitle" data-typed-text="Linux操作命令"></span>
           
         </div>
 
@@ -227,8 +227,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-02-14 16:19" pubdate>
-          2023年2月14日 下午
+        <time datetime="2023-10-07 23:23" pubdate>
+          2023年10月7日 晚上
         </time>
       </span>
     
@@ -239,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          968 字
+          105 字
         
       </span>
     
@@ -250,7 +250,7 @@
         
         
         
-          9 分钟
+          1 分钟
         
       </span>
     
@@ -296,30 +296,15 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Leetcode题解14.最长公共前缀</h1>
+            <h1 style="display: none">Linux操作命令</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>编写一个函数来查找字符串数组中的最长公共前缀。</p>
-<p>如果不存在公共前缀，返回空字符串 <code>&quot;&quot;</code>。</p>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><strong>示例 1：</strong></p>
-<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs armasm">输入：<span class="hljs-keyword">strs</span> = [<span class="hljs-string">&quot;flower&quot;</span>,<span class="hljs-string">&quot;flow&quot;</span>,<span class="hljs-string">&quot;flight&quot;</span>]<br>输出：<span class="hljs-string">&quot;fl&quot;</span><br></code></pre></td></tr></table></figure>
+                <h2 id="1、目录操作"><a href="#1、目录操作" class="headerlink" title="1、目录操作"></a>1、目录操作</h2><h3 id="1-1-目录切换-cd"><a href="#1-1-目录切换-cd" class="headerlink" title="1.1 目录切换 cd"></a>1.1 目录切换 cd</h3><p>命令：cd 目录</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs shell">cd /		# 切换到根目录<br>cd /usr		# 切换到根目录下的usr目录<br>cd ../		# 切换到上一级目录，或者cd..<br>cd ~		# 切换到home目录<br>cd -		# 切换到上次访问的目录<br></code></pre></td></tr></table></figure>
 
-<p><strong>示例 2：</strong></p>
-<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs armasm">输入：<span class="hljs-keyword">strs</span> = [<span class="hljs-string">&quot;dog&quot;</span>,<span class="hljs-string">&quot;racecar&quot;</span>,<span class="hljs-string">&quot;car&quot;</span>]<br>输出：<span class="hljs-string">&quot;&quot;</span><br>解释：输入不存在公共前缀。<br></code></pre></td></tr></table></figure>
 
-<ul>
-<li><code>1 &lt;= strs.length &lt;= 200</code></li>
-<li><code>0 &lt;= strs[i].length &lt;= 200</code></li>
-<li><code>strs[i]</code> 仅由小写英文字母组成</li>
-</ul>
-<h2 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h2><ol>
-<li>因为每一个strs[i]的长度都小于等于200，所以将i从0到200依次递增，若当前i的值等于了srts[i]的长度，则将ans返回，程序退出。</li>
-<li>每次递增i的值时，记录第一个字符串strs[0]在i位置上的数据，然后遍历整个strs，当遍历到strs中的一个str的长度等于i时，返回ans，程序退出；当当前str在i位置上的值不等于strs[0]在i位置上的数据时，返回ans，程序退出。</li>
-<li>当遍历完一次strs时，程序未退出，则将strs[0]在i位置上的值加在ans后，然后i+1,再次记录strs[0]在i+1位置上的值，再次遍历strs，同2……</li>
-</ol>
-<h2 id="Java代码"><a href="#Java代码" class="headerlink" title="Java代码"></a>Java代码</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> String <span class="hljs-title function_">longestCommonPrefix</span><span class="hljs-params">(String[] strs)</span> &#123;<br>    <span class="hljs-type">String</span> <span class="hljs-variable">ans</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;&quot;</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> <span class="hljs-variable">i</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">200</span>; i++)&#123;<br>        <span class="hljs-keyword">if</span>(strs[<span class="hljs-number">0</span>].length() == i)&#123;<br>            <span class="hljs-keyword">return</span> ans;<br>        &#125;<br>        <span class="hljs-type">char</span> <span class="hljs-variable">t</span> <span class="hljs-operator">=</span> strs[<span class="hljs-number">0</span>].charAt(i);<br>        <span class="hljs-keyword">for</span>(String str: strs)&#123;<br>            <span class="hljs-keyword">if</span>(str.length() == i)&#123;<br>                <span class="hljs-keyword">return</span> ans;<br>            &#125;<br>            <span class="hljs-keyword">if</span>(str.charAt(i) != t)&#123;<br>                <span class="hljs-keyword">return</span> ans;<br>            &#125;<br>        &#125;<br>        ans += Character.toString(t);<br>    &#125;<br>    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
                 
               </div>
             
@@ -327,32 +312,11 @@
             <div>
               <div class="post-metas my-3">
   
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/Leetcode%E9%A2%98%E8%A7%A3/" class="category-chain-item">Leetcode题解</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
   
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E9%A2%98%E8%A7%A3/">#题解</a>
+        <a href="/tags/Linux/">#Linux</a>
       
     </div>
   
@@ -364,8 +328,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Leetcode题解14.最长公共前缀</div>
-      <div>https://swustcoder.github.io/2023/02/14/Leetcode题解14.最长公共前缀/</div>
+      <div>Linux操作命令</div>
+      <div>https://swustcoder.github.io/2023/10/07/Linux操作命令/</div>
     </div>
     <div class="license-meta">
       
@@ -377,7 +341,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年2月14日</div>
+          <div>2023年10月7日</div>
         </div>
       
       
@@ -421,18 +385,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/10/07/Linux%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/" title="Linux操作命令">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Linux操作命令</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/02/14/Leetcode%E9%A2%98%E8%A7%A313.%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0/" title="Leetcode题解13.罗马数字转整数">
-                        <span class="hidden-mobile">Leetcode题解13.罗马数字转整数</span>
+                      <a href="/2023/02/14/Leetcode%E9%A2%98%E8%A7%A314.%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80/" title="Leetcode题解14.最长公共前缀">
+                        <span class="hidden-mobile">Leetcode题解14.最长公共前缀</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
